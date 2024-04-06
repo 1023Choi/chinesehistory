@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative; /* Added */
+  }
+
+  .info {
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    color: #ffffff;
+  }
+
+  p {
+    color: #666;
+  }
+
+  .person-image {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    /* Add background image property */
+    background-image: url('https://s.yimg.com/ny/api/res/1.2/3120THpVVCqg_kZFe8Dq0g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTEyNDI7Y2Y9d2VicA--/https://media.zenfs.com/zh-tw/setn.com.tw/d59e9cf5a4768157279edef5be3b3430');
+    background-size: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .info > div {
+  display: inline-block;
+  width: 80%; /* Adjust the width as needed */
+  vertical-align: top;
+}
+video{
+    display:block;
+    margin: auto;
+}
